@@ -43,3 +43,136 @@ header {
     width: 25%;
     border-left: dashed;
 }
+
+.background-1 {
+    background-color: blue;
+    min-height: 400px;
+    width: auto;
+    padding: 50px;
+}
+
+.div-container-plum {
+    background-color: plum ;
+    border-style: dashed;
+    min-height: 300px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.background-2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 500px;
+    width: auto;
+    padding: 50px;
+}
+
+.div-container-left {
+    background-color: rgb(0, 119, 255) ;
+    border-style: dashed;
+    min-height: 400px;
+    width: 700px;
+}
+
+.div-container-right {
+    background-color: pink;
+    border-style: dashed;
+    min-height: 400px;
+    width:400px
+}
+
+.background-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+    min-height: 500px;
+    width: auto;
+    padding: 50px;
+}
+
+.div-container-left {
+    background-color: rgb(0, 119, 255) ;
+    border-style: dashed;
+    min-height: 400px;
+    width: 700px;
+}
+
+.div-container-right {
+    background-color: pink;
+    border-style: dashed;
+    min-height: 400px;
+    width:400px
+}
+
+.background-4 {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    min-height: 500px;
+    width: auto;
+    padding: 50px;
+}
+
+.div-container-left {
+    background-color: rgb(0, 119, 255) ;
+    border-style: dashed;
+    min-height: 400px;
+    width: 700px;
+}
+
+.div-container-right {
+    background-color: pink;
+    border-style: dashed;
+    min-height: 400px;
+    width:400px
+}
+
+
+.background-5 {
+    background-color: rgb(218, 218, 218);
+    min-height: 800px;
+    width: auto;
+    padding: 50px;
+}
+
+.div-container-green{
+    background-color: green ;
+    border-style: dashed;
+    min-height: 700px;
+    width: 1100px;
+    margin: 0 auto;  
+        
+}
+
+.background-6 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    min-height: 600px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.div-container-left-2 {
+    background-color: rgb(221, 131, 146);
+    border-style: dashed;
+    min-height: 500px;
+    width:300px
+}
+
+.div-container-right-2 {
+    display: flex;
+    min-height: 500px;
+    width:800px
+}
+
+.div-item-right-2 {
+    flex: calc(100% / 4);
+    background-color: rgb(0, 207, 235);
+    border-style: dashed;
+    min-height: 100%;
+}
