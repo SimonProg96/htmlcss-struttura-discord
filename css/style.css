@@ -176,3 +176,39 @@ header {
     border-style: dashed;
     min-height: 100%;
 }
+
+hr{
+    color: white;
+}
+
+.background-7 {
+    background-color: rgb(36, 36, 36);
+    min-height: 100px;
+    padding-top: 25px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    min-height: 100px;
+    width: 1100px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.footer-botton{
+    height: 50px;
+    width: 150px;
+    background-color: pink;
+    border-style: dashed;
+}
+
+.footer-logo {
+    height: 50px;
+    width: 150px;
+    background-color: pink;
+    border-style: dashed;
+}
+
